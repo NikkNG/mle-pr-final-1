@@ -1,0 +1,12 @@
+{
+  "deployment_strategies": [
+    "blue_green",
+    "canary",
+    "immediate"
+  ],
+  "default_strategy": "blue_green",
+  "health_check_timeout": 300,
+  "auto_rollback": true,
+  "backup_retention_days": 30,
+  "max_backup_versions": 10
+}
